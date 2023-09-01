@@ -1,0 +1,103 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+button{
+  background-color: green;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover{
+  background-color: #2980b9;
+}
+
+header{
+  width: 100%;
+  height: 150px;
+}
+header img{
+  width:150px;
+  height: 100%;
+  text-align: center;
+}
+label{
+  color: black;
+  font-size: 1.2em;
+  padding-right: 2%;
+}
+label,input, select{
+  margin-left:1% ;
+}
+select{
+  width: 10%;
+  height: 25px;
+  font-weight: bold;
+}
+input[type=number]{
+  width: 3%;
+}
+.contenedor{
+  width: 80%;
+  margin: 0 auto;
+  border-style: groove;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin-bottom: 2%;
+}
+#sep h2{
+  border-style: double;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#sep{
+  text-align: left;
+  border-style: groove;
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  padding-top: 1%;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+#sep .final{
+  float: right;
+  margin-right: 1.5%;
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;;
+}
+
+.izq, .der{
+  display: inline-block;
+  padding-right: 1%;
+}
+
+.der{
+  color: red;
+}
+.fac{
+  width: 100%;
+  margin-top: 2%;
+  background-color: #afa8a8;
+}
+.factura{
+  width: 50%;
+  margin: 0 auto;
+  border-style: double;
+}
