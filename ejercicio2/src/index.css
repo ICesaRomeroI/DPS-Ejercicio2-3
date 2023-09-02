@@ -10,6 +10,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+    color: #FF5733;
+}
+
 button{
   background-color: green;
   border: none;
@@ -55,6 +60,7 @@ input[type=number]{
   padding-bottom: 1%;
   padding-top: 1%;
   margin-bottom: 2%;
+  margin-top: 50px;
 }
 #sep h2{
   border-style: double;
@@ -81,6 +87,7 @@ input[type=number]{
   margin-right: 1.5%;
   border-bottom: 2px solid #000;
   border-top: 2px solid #000;;
+  color: #FF5733;
 }
 
 .izq, .der{
