@@ -113,6 +113,7 @@ export const Form = () => {
 
   return (
     <div>
+      <h1>LA ITALIANA</h1>
       <form onSubmit={handleSubmit} className="contenedor">
         <label id="nombre">
           Nombre:
