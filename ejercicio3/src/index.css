@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.Contenedor1{
+  margin: 0 auto;
+  width: 80%;
+  border-bottom: 4px outset cyan;
+  border-top: 4px inset cyan;
+  padding: 1% 0;
+}
+.texto{
+  text-align: right;
+  width: 19%;
+  position: absolute;
+  margin-top: 5.5%;
+  margin-left: 5%;
+  
+}
+.tabla{
+  margin-left: 35%;
+  width: 77%;
+  margin-top: 10;
+}
+.texto, .tabla{
+  display: inline-block;
+}
+header{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+header img{
+  width:40%;
+  height: 100%;
+  float: left;
+}
+table {
+  margin-top: 2%;
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 1em;
+  margin-right: 5%;
+  float: left;
+}
+
+table, th, td {
+  border: 2px solid black;
+}
+
+th, td {
+  padding: 0.8%;
+  text-align: center;
 }
