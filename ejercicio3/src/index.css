@@ -8,6 +8,8 @@ body {
   
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -18,6 +20,7 @@ code {
   border-bottom: 4px outset cyan;
   border-top: 4px inset cyan;
   padding: 1% 0;
+  margin-top: 100px;
 }
 .texto{
   text-align: right;
@@ -62,4 +65,70 @@ table, th, td {
 th, td {
   padding: 0.8%;
   text-align: center;
+}
+
+#img{
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+#entrada{
+  margin-top: 50px;
+}
+
+label,input, select{
+  margin-left:1% ;
+}
+
+button{
+  background-color: rgb(30, 193, 152);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 2%;
+}
+button:hover{
+  background-color: #2980b9;
+}
+
+.izq, .der{
+  display: inline-block;
+  padding-right: 1%;
+  
+}
+
+.fac{
+  width: 100%;
+  margin-top: 2%;
+  background-color: #4795c9;
+}
+.factura{
+  width: 50%;
+  margin: 0 auto;
+  border-style: double;
+  border-color: rgb(19, 155, 121);
+}
+
+#sep{
+  text-align: center;
+  border-style:solid;
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  padding-top: 1%;
+  font-weight: bold;
+  margin-top: 50px;
+  border-color: rgb(60, 212, 174);
+}
+
+#sep .final{
+  float: right;
+  margin-right: 1.5%;
+  border-bottom: 2px solid #2980b9;
+  border-top: 2px solid #2980b9;
+  color: rgb(19, 154, 120)
 }
