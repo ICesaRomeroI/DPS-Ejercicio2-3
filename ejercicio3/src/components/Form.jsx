@@ -32,7 +32,7 @@ export const Form = () => {
     let nuevoPrecio = 0;
     switch (iddestino) {
       case 1:
-        nuevoPorcentaje = 0.45; // Panamá 4.5% impuesto
+        nuevoPorcentaje = 0.045; // Panamá 4.5% impuesto
         switch (npersonas) {
           case 1:
             nuevoPrecio = 197; // valor del vuelo
@@ -55,7 +55,7 @@ export const Form = () => {
         }
         break;
       case 2:
-        nuevoPorcentaje = 0.6; // México 6% impuesto
+        nuevoPorcentaje = 0.06; // México 6% impuesto
         switch (npersonas) {
           case 1:
             nuevoPrecio = 485; // valor del vuelo
@@ -78,7 +78,7 @@ export const Form = () => {
         }
         break;
       case 3:
-        nuevoPorcentaje = 0.7; // Chile 7% impuesto
+        nuevoPorcentaje = 0.07; // Chile 7% impuesto
         switch (npersonas) {
           case 1:
             nuevoPrecio = 198; // valor del vuelo
@@ -101,7 +101,7 @@ export const Form = () => {
         }
         break;
       case 4:
-        nuevoPorcentaje = 0.75; // Perú 7.5% impuesto
+        nuevoPorcentaje = 0.075; // Perú 7.5% impuesto
         switch (npersonas) {
           case 1:
             nuevoPrecio = 754; // valor del vuelo
@@ -124,7 +124,7 @@ export const Form = () => {
         }
         break;
       case 5:
-        nuevoPorcentaje = 0.4; // Honduras 4% impuesto
+        nuevoPorcentaje = 0.04; // Honduras 4% impuesto
         switch (npersonas) {
           case 1:
             nuevoPrecio = 565; // valor del vuelo
